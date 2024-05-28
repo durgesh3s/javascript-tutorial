@@ -69,8 +69,8 @@ f /= a
 console.table([a,b,c,d,e,f])
 
 // Comparision Operator
-let a = null
-let b = 0
+// let a = null
+// let b = 0
 
 console.log(a > b)
 console.log(a < b)
