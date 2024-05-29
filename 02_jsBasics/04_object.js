@@ -31,7 +31,20 @@ let obj2 = {
 // let obj3 = {...obj1, ...obj2}
 // console.log(obj3)
 
+/*
 console.log(Object.keys(tinder))
 console.log(Object.values(tinder))
 console.log(Object.entries(tinder))
 console.log(tinder.hasOwnProperty("isLoggedIn"))
+*/
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+let course = {
+    instructor: "Durgesh Singh",
+    price: "999",
+    courseName: "MERN Dev"
+}
+
+const {instructor: courseInstructor} = course
+console.log(courseInstructor)
